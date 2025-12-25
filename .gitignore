@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# =========================
+# Hugging Face / ML models
+# =========================
+
+# Modèles entraînés (trop lourds pour GitHub)
+camembert_fakenews_model/
+notebooks/camembert_fakenews_model/
+
+# Poids des modèles
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.keras
+*.safetensors
+
+# Dossiers Trainer / logs
+results/
+logs/
+wandb/
